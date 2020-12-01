@@ -1,0 +1,171 @@
+
+.container{
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+    
+
+.top{
+    text-align: center;
+}
+.top div{
+    display: inline-block;
+   
+}
+.div01{
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+.div02{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 160px solid pink;
+}
+.div02::after{
+    
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    /* left: -100px; */
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 160px solid pink;
+    
+    margin:55px 0 0 -100px;
+    
+}
+
+
+
+.div12{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 160px solid tomato;
+}
+.div12::after{
+    
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: -100px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 160px solid tomato;
+    
+    /* margin:60px 0 0 -100px; */
+    
+}
+
+.div22{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 160px solid yellow;
+}
+.div22::after{
+    
+  
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    /* left: -100px; */
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 160px solid yellow;
+    
+    /* margin:60px 0 0 -100px; */
+    
+}
+
+.div32{
+    position: absolute;
+    left: 30px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 160px solid blue;
+}
+
+/* top items close */
+
+
+/* perspective design */
+
+.parent{
+    width: 300px;
+    height: 200px;
+
+    perspective: 100px;
+    position: relative;
+    
+}
+.border{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 150px;
+    background: yellowgreen;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.div1{
+    width: 200px;
+    height: 100px;
+    background: green;
+    position: relative;
+    transform: rotateY(50deg);
+}
+.div2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    left:0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+
